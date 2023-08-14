@@ -13,12 +13,12 @@ const Footer = () => {
   }
   return (
     <div className="relative">
-    {/* back to top */}
+    {/* back to top
     <div onClick={backToTop} className="hidden max-md:flex z-1 cursor-pointer shadow-light justify-center">
         <div className=" p-2 text-xl hover:bg-gray-900 dark:hover:bg-[#DBD9D9] duration-500 bg-black text-white dark:bg-white dark:text-black rounded top-[-20px] absolute dark:shadow">
         <AiOutlineArrowUp/>
         </div>
-    </div>
+    </div> */}
 
       {/* footer  */}
     <div className=" bg-white dark:bg-[#0B0B13] flex justify-center border-t dark:dark:border-[#25252C]">
@@ -31,7 +31,7 @@ const Footer = () => {
           <BiLogoPinterestAlt className=" text-black dark:text-white hover:text-[#525FE1] duration-300 text-lg cursor-pointer" />
         </div>
         <p className=" max-md:mx-auto text-center text-sm text-black dark:text-gray-300">
-          © 2023 copyright <span className="primary-text cursor-pointer">ib-themes</span> all right reserved
+          © 2023 . All rights reserved by KZT
         </p>
       </div>
     </div>

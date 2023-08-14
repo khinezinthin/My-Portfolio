@@ -22,7 +22,7 @@ const MoreSkill = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={80} />
+              <Test progress={88} />
               <span className="">Communication</span>
             </p>
             <p
@@ -37,21 +37,21 @@ const MoreSkill = () => {
             data-aos-duration="1000"
             data-aos-delay="100"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={73} /> <span className=" "> Problem-solving</span>
+              <Test progress={80} /> <span className=" "> Problem-solving</span>
             </p>
             <p
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="150"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={100} /> <span className=" ">Fast Learning</span>{" "}
+              <Test progress={85} /> <span className=" ">Fast Learning</span>{" "}
             </p>
           </div>
         </div>
       </div>
 
       {/* hr  */}
-      <div className=" w-[90%] pb-0 mt-14 mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert">
+      <div className=" w-[90%] pb-0 mt-12 mb-2 mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert">
       </div>
 
     </div>

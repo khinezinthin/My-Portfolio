@@ -50,7 +50,7 @@
 .leftImg {
   position: relative;
 }
-.leftImg::before {
+/* .leftImg::before {
   content: "";
   position: absolute;
   top: -20%;
@@ -59,19 +59,20 @@
   z-index: -19px;
   height: 140%;
   display: inline-block;
-  border: 2px solid #9552e1;
+  border: 2px solid #525fe1;
   background: transparent;
-}
+} */
 .leftImg::after {
   content: "";
   position: absolute;
-  width: 130%;
+  width: 127%;
   height: 120%;
   top: -10%;
   left: -14%;
   display: inline-block;
-  border: 2px solid #b852e1;
+  border: 2px solid #525fe1;
   background: transparent;
+  border-radius: 5px;
 }
 .span {
   display: none;

@@ -50,7 +50,7 @@ const Skill = () => {
 
           <div className=" w-[85%]">
             <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
-              html5
+              html5, css
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
               <div className=" w-[92%] h-[10px] primary-bg"></div>
@@ -65,7 +65,7 @@ const Skill = () => {
               onExit={() => setCount(false)}>
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
                 {count && (
-                  <CountUp  start={0} end={62} duration={2} delay={0} />
+                  <CountUp  start={0} end={85} duration={2} delay={0} />
                 )}{" "}
                 %
               </h2>
@@ -76,7 +76,7 @@ const Skill = () => {
               javascript
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
-              <div className=" w-[62%] h-[10px] primary-bg"></div>
+              <div className=" w-[85%] h-[10px] primary-bg"></div>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Skill = () => {
               onExit={() => setCount(false)}>
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
                 {count && (
-                  <CountUp start={0} end={80} duration={2} delay={0} />
+                  <CountUp start={0} end={90} duration={2} delay={0} />
                 )}{" "}
                 %
               </h2>
@@ -96,10 +96,10 @@ const Skill = () => {
           </div>
           <div className=" w-[85%]">
             <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
-              react js
+              react js, RTK
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
-              <div className=" w-[80%] h-[10px] primary-bg"></div>
+              <div className=" w-[90%] h-[10px] primary-bg"></div>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ const Skill = () => {
           </div>
           <div className=" w-[85%]">
             <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
-              tailwind css
+              tailwind css, bootstrap
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
               <div className=" w-[90%] h-[10px] primary-bg"></div>
@@ -134,7 +134,7 @@ const Skill = () => {
               onExit={() => setCount(false)}>
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
                 {count && (
-                  <CountUp start={0} end={70} duration={2} delay={0} />
+                  <CountUp start={0} end={85} duration={2} delay={0} />
                 )}{" "}
                 %
               </h2>
@@ -145,7 +145,7 @@ const Skill = () => {
               github
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
-              <div className=" w-[70%] h-[10px] primary-bg"></div>
+              <div className=" w-[85%] h-[10px] primary-bg"></div>
             </div>
           </div>
         </div>

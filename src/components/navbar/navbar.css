@@ -1,0 +1,21 @@
+.activeDark{
+    color: #525fe1;
+    background-color: #191c26;
+    border-radius: 0.375rem;
+}
+
+.activeLight{
+    color: #525fe1;
+    background-color: #f5f5f5;
+    border-radius: 0.375rem;
+}
+
+.activeLightSiebar{
+    color: #525fe1;
+    background-color: white;
+    border-radius: 0.375rem;
+}
+
+.navlink{
+    transition: 300ms;
+}

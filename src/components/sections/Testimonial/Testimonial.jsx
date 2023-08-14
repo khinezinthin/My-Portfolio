@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import img from "../../../assets/team-1.jpg";
-import img1 from "../../../assets/team-2.jpg";
-import img2 from "../../../assets/team-4.jpg";
 import { Carousel } from "@mantine/carousel";
 import { Group, Pagination, rem } from "@mantine/core";
 import "./Testimonial.css";
@@ -9,7 +6,7 @@ import Banner from "../../Banner/Banner";
 // import { usePagination } from "@mantine/hooks";
 // import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
-import kzt from "../../../assets/kzt/5.png";
+import tpp from "../../../assets/tpp/1.jpg";
 import pwl from "../../../assets/pwl/1.png";
 import kwyw from "../../../assets/kwyw/kwyw-removebg.png";
 
@@ -17,10 +14,10 @@ const Testimonial = () => {
   const data = [
     {
       id: 1,
-      image: kzt,
+      image: pwl,
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis nesciunt quidem veritatis tempore quae.",
-      name: "Khine Zin Thin",
+      name: "Phyo Wunna Lin",
       work: "React Developer ",
     },
     {
@@ -33,10 +30,10 @@ const Testimonial = () => {
     },
     {
       id: 3,
-      image: pwl,
+      image: tpp,
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis nesciunt quidem veritatis tempore quae.",
-      name: "Phyo Wunna Lin",
+      name: "Thae Pann Phyu",
       work: "Website Developer",
     },
   ];

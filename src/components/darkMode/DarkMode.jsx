@@ -2,11 +2,16 @@ import React, { useEffect, useState } from "react";
 import "./darkMode.css";
 import { FaMoon } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
+import { setTheme } from "../../../redux/sidebarSlice";
 
 const DarkMode = () => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
-  );
+  // const [theme, setTheme] = useState(
+  //   localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
+  // );
+
+  const theme = useSelector(state => state.sidebarSlice.theme);
+  const dispatch = useDispatch();
 
   const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
   const onWindowMatch = () => {
@@ -35,7 +40,9 @@ const DarkMode = () => {
   }, [theme]);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    // setTheme(theme === "dark" ? "light" : "dark");
+    dispatch(setTheme(theme === "dark" ? "light" : "dark"))
+
   };
   // console.log(theme);
   return (

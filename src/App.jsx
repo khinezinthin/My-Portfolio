@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import SkillAndEducation from "./components/sections/skill/SkillAndEducation";
 import Experience from "./components/sections/experience/Experience";
-import Sidebar from "./components/sidebar/Sidebar";
+// import Sidebar from "./components/sidebar/Sidebar";
 import Contact from "./components/sections/contact/Contact";
 import Footer from "./components/footer/Footer";
 import About from "./components/sections/about/About";
@@ -12,14 +12,33 @@ import DarkMode from "./components/darkMode/DarkMode";
 import MoreSkill from "./components/sections/more-skill/MoreSkill";
 
 import Landing from "./components/sections/landing/Landing";
+import Navbar from "./components/navbar/Navbar";
 import Testimonial from "./components/sections/Testimonial/Testimonial";
+import { useSelector } from "react-redux";
 
 const App = () => {
+  const theme = useSelector(state => state.sidebarSlice.theme);
+
+  const [loading,setLoading] = useState(true);
+  useEffect(()=>{
+    setTimeout(()=>{
+        setLoading(false);
+    },[3000])
+  },[])
+  
   return (
     <>
-      <div className=" flex w-full gap-[78px] max-md:gap-0">
+      {loading ? 
+      (<div className={` ${theme === "dark" ? "bg-black text-white" : "bg-[#fff] text-black"} h-screen mx-auto flex justify-center items-center`}>
+        <h1>Loading ....</h1>
+      </div>)
+      : 
+      (
         <div>
-          <Sidebar />
+        <div className="">
+        <div>
+          {/* <Sidebar /> */}
+          <Navbar/>
         </div>
 
         <div className="w-full">
@@ -32,22 +51,17 @@ const App = () => {
           <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
           <section id="1">
             <About />
-          </section>
-
-          <section>
             <MoreSkill />
-          </section>
-          <section className=" overflow-hidden">
-            <Testimonial />
+          <Testimonial />
           </section>
           </div>
+
           <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
             <section id="2">
               <Experience />
-            </section>
-            <section>
               <SkillAndEducation />
             </section>
+
           <section id="3">
             <ProjectShow />
           </section>
@@ -61,6 +75,8 @@ const App = () => {
           <Footer />
         </div>
       </div>
+        </div>
+      )}
     </>
   );
 };

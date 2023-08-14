@@ -12,7 +12,7 @@ const ProjectShow = () => {
   return (
     <div className="w-[100%] flex flex-col gap-16 justify-center bg-[#FFFFFF] dark:bg-[#000000] duration-200">
       <div
-        className="w-[90%] mt-16 max-sm:mt-20 flex gap-5 flex-col justify-center mx-auto"
+        className="w-[90%] pt-14 max-sm:mt-20 flex gap-7 flex-col justify-center mx-auto"
       >
         <h1 className=" text-center">
           <Banner title="Recent Project" />

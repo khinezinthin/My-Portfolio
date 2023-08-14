@@ -8,16 +8,38 @@ const Education = () => {
       {/* <h2 className=" uppercase text-left py-3 ">
         education roadmap
       </h2> */}
-      <Timeline active={2} lineWidth={2} bulletSize={18}>
+      <Timeline active={3} lineWidth={2} bulletSize={18}>
         <Timeline.Item
-          title="2019 - 2021"
+          title="2018 - 2019"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillCheckCircle size={18} />}>
           <Text  className=" font-bold text-black dark:text-white" size="md">
-            Diploma In Electronics And Communication
+            Passed Matriculation Examination
           </Text>
           <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
-            From Government Institute Of Technology
+            From Aung Thit Sar Private School
+          </Text>
+        </Timeline.Item>
+        <Timeline.Item
+          title="2019 - 2020"
+          className=" text-[16px] text-gray-500"
+          bullet={<AiFillClockCircle className=" text-white" size={18} />}>
+          <Text className=" font-bold text-black dark:text-white" size="md">
+            First Year Student Of Myanmar Major
+          </Text>
+          <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
+            From Dagon University 
+          </Text>
+        </Timeline.Item>
+        <Timeline.Item
+          title="2021"
+          className=" text-[16px] text-gray-500"
+          bullet={<AiFillCheckCircle size={18} />}>
+          <Text className=" font-bold text-black dark:text-white" size="md">
+            Basic Web Design
+          </Text>
+          <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
+            From MMS-IT
           </Text>
         </Timeline.Item>
         <Timeline.Item
@@ -31,28 +53,7 @@ const Education = () => {
             From MMS-IT
           </Text>
         </Timeline.Item>
-        <Timeline.Item
-          title="2022 - present"
-          className=" text-[16px] text-gray-500"
-          bullet={<AiFillClockCircle className=" text-white" size={18} />}>
-          <Text className=" font-bold text-black dark:text-white" size="md">
-            Web Application Development Certification
-          </Text>
-          <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
-            In MMS-IT
-          </Text>
-        </Timeline.Item>
-        <Timeline.Item
-          title="2022 - present"
-          className=" text-[16px] text-gray-500"
-          bullet={<AiFillClockCircle className=" text-white" size={18} />}>
-          <Text className=" font-bold text-black dark:text-white" size="md">
-            B.sc in Computer Science
-          </Text>
-          <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
-            In University Of People
-          </Text>
-        </Timeline.Item>
+        
       </Timeline>
     </div>
   );
