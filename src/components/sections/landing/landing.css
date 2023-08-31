@@ -21,6 +21,16 @@
   /* opacity: .7; */
 } 
 
+.bg-img-light{
+  background-image: url("../../../assets/kzt/bg-light.png");
+  /* background-color: white; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  /* transform: scale(1); */
+  /* opacity: .7; */
+} 
+
 .transition-C {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
