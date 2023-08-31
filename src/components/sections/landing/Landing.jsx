@@ -91,11 +91,11 @@ const Landing = () => {
       >
         {/* bg-img  */}
         {theme == "light" ? (
-          <div className="bg-img-light w-full h-full  absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px] max-[340px]:bottom-[-65px] max-[332px]:bottom-[-70px]
-          max-sm:opacity-[.8] max-md:opacity-[.9]">
+          <div className="bg-img-light w-full h-full absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px] max-[340px]:bottom-[-65px] max-[332px]:bottom-[-70px]
+           max-md:opacity-[.9]">
          </div>
         ) : (
-          <div className="bg-img w-full h-full  absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px] max-[340px]:bottom-[-65px] max-[332px]:bottom-[-70px]
+          <div className="bg-img w-full h-full absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px] max-[340px]:bottom-[-65px] max-[332px]:bottom-[-70px]
           opacity-[.7] max-lg:opacity-[.5] max-sm:opacity-[.4]">
          </div>
         )}
