@@ -113,13 +113,13 @@ export const Navbar = ()=>{
         <div className={`${opened ? "fixed left-0" : " left-[-500px]"} hidden max-lg:block w-[280px] max-[400px]:w-[230px] max-[340px]:w-[200px] h-screen z-50 fixed bg-[#f5f5f5] dark:bg-[#0a0d1a] shadow-md dark:shadow-[#000] duration-500`}>
             <div>
             <Link to={"0"}>
-                    <h1 className=" cursor-pointer h-[80px] flex items-center text-white pl-10 max-[400px]:pl-7 max-[340px]:pl-5 bg-[#242859] py-5 text-2xl ">
+                    <h1 className=" cursor-pointer h-[80px] flex items-center text-white pl-14 max-[400px]:pl-11 max-[340px]:pl-8 bg-[#242859] py-5 text-2xl">
                         My Portfolio
                     </h1>
                 </Link> 
             </div>
 
-            <ul className=" mt-6 mx-4 gap-5 flex-col flex text-black dark:text-white">
+            <ul className=" mt-6 mx-4 max-[340px]:mx-0 gap-5 flex-col flex text-black dark:text-white">
                     <Link to={"0"} activeClass={theme === "dark" ? "activeDark" : "activeLightSiebar"} spy={true} offset={-80}className="navlink">
                         <li onClick={() => dispatch(setActive(0))} className={` hover:text-[#525fe1] hover:dark:bg-[#191c26] hover:bg-white duration-200 rounded-md cursor-pointer font-medium flex `}>
                             <div className=" flex items-center gap-2 py-3 ml-10">

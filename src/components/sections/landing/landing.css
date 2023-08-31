@@ -1,3 +1,26 @@
+/* @media screen and (max-width:768px) {
+  .bg-img{
+    background-image: url("../../../assets/kzt/002.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: fixed;
+    right: -50px;
+    bottom: 0px;
+    transform: scale(1);
+    opacity: .4;
+  } 
+} */
+.bg-img{
+  background-image: url("../../../assets/kzt/002.png");
+  /* background-color: white; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  /* transform: scale(1); */
+  /* opacity: .7; */
+} 
+
 .transition-C {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

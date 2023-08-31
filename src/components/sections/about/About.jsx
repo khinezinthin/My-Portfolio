@@ -2,7 +2,7 @@ import React from "react";
 import kzt from "../../../assets/kzt/66.jpg";
 import "./about.css";
 import { BiLogoFacebook } from "react-icons/bi";
-import { BiLogoTwitter } from "react-icons/bi";
+import { PiMessengerLogoLight } from "react-icons/pi";
 import { BiLogoInstagram } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
 import { SiNetlify } from "react-icons/si";
@@ -29,40 +29,50 @@ const About = () => {
                   <img src={kzt} alt="" className="w-[255px] max-[330px]:w-[232px] max-[300px]:w-[200px] max-[283px]:w-[175px] object-cover relative top-[-35px] max-[330px]:top-[-35px] max-[330px]:left-1 max-[300px]:left-2 max-[283px]:left-1 left-2" />
                 {/* icon  */}
                 <div className="">
+                    <a href="https://facebook.com/khinezin.thin.75" target="_blank">
                     <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[8%] left-[16%] max-lg:left-[11%]">
                         <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
 
                         <BiLogoFacebook />
                       </p>
                     </div>
+                    </a>
 
+                    <a href="https://www.facebook.com/messages/t/100015696700631" target="_blank">
                     <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] left-[30%] max-lg:left-[25%] max-lg:bottom-[-1%]">
-                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-xl text-white p-1 rounded-full">
 
-                        <BiLogoTwitter />
+                        <PiMessengerLogoLight />
                       </p>
                     </div>
+                    </a>
 
+                    <a href="https://instagram.com/khinezin.thin" target="_blank">
                     <div className= " bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-5%] right-[42%] max-lg:right-[47%] max-[300px]:right-[45%]">
                         <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
 
                         <BiLogoInstagram />
                       </p>
                     </div>
+                    </a>
 
+                    <a href="https://github.com/khinezinthin" target="_blank">
                     <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] right-[25%] max-lg:right-[30%]">
                         <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-
+                          
                         <BiLogoGithub />
                       </p>
                     </div>
+                    </a>
 
+                    <a href="https://github.com/khinezinthin" target="_blank">
                     <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
                         <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
 
                         <SiNetlify />
                       </p>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>

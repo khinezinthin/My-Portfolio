@@ -14,10 +14,9 @@ import MoreSkill from "./components/sections/more-skill/MoreSkill";
 import Landing from "./components/sections/landing/Landing";
 import Navbar from "./components/navbar/Navbar";
 import Testimonial from "./components/sections/Testimonial/Testimonial";
-import { useSelector } from "react-redux";
+import Loading from "./components/loading/Loading";
 
 const App = () => {
-  const theme = useSelector(state => state.sidebarSlice.theme);
 
   const [loading,setLoading] = useState(true);
   useEffect(()=>{
@@ -29,9 +28,11 @@ const App = () => {
   return (
     <>
       {loading ? 
-      (<div className={` ${theme === "dark" ? "bg-black text-white" : "bg-[#fff] text-black"} h-screen mx-auto flex justify-center items-center`}>
-        <h1>Loading ....</h1>
-      </div>)
+      (
+        <div>
+          <Loading/>
+        </div>
+      )
       : 
       (
         <div>
