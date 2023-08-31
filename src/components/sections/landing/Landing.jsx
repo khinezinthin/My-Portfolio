@@ -84,10 +84,10 @@ const Landing = () => {
         </div>
       </div>
       <div
-        className={`h-screen max-[640px]:h-full  max-[640px]:py-24 max-[463px]:pb-6 max-[463px]:pt-28 max-[340px]:pt-20 max-[340px]:pb-2 relative select-none w-full overflow flex justify-center flex-col items-center dark:bg-black  duration-200`}
+        className={`h-screen max-[640px]:h-full max-[640px]:pb-24 max-[640px]:pt-[98px] max-[463px]:pb-6 max-[463px]:pt-28 max-[340px]:pt-22 max-[340px]:pb-2 relative select-none w-full overflow flex justify-center flex-col items-center dark:bg-black  duration-200`}
       >
         {/* bg-img  */}
-        <div className="bg-img w-full h-full  absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px]  max-[340px]:bottom-[-65px]
+        <div className="bg-img w-full h-full  absolute max-[640px]:right-[-30px] max-[480px]:right-[-58px] max-sm:scale-[0.9] max-sm:bottom-[-30px] max-[432px]:bottom-[-50px] max-[400px]:scale-[1] max-[360px]:bottom-[-60px] max-[340px]:bottom-[-65px] max-[332px]:bottom-[-70px]
          opacity-[.7] max-lg:opacity-[.5] max-sm:opacity-[.4]">
         </div>
 
