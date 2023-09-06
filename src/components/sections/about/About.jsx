@@ -102,7 +102,7 @@ const About = () => {
 
 
               <p className=" text-gray-800 dark:text-[#b9b9bb] text-[16px] leading-6 mt-7 mb-5 max-lg:mt-8">
-                Hello, I'm Junior Front-end Web Developer . I'm from Yangon . I code and create web elements for my client . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
+                Hello, I'm Junior Frontend Web Developer . I'm from Yangon . I code and create web elements for my client . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
               </p>
 
               {/* <p className=" text-gray-800 dark:text-[#b9b9bb] text-[16px] leading-6 mb-7 max-lg:mb-8">
