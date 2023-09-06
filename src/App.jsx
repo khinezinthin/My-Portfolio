@@ -13,7 +13,7 @@ import MoreSkill from "./components/sections/more-skill/MoreSkill";
 
 import Landing from "./components/sections/landing/Landing";
 import Navbar from "./components/navbar/Navbar";
-import Testimonial from "./components/sections/Testimonial/Testimonial";
+// import Testimonial from "./components/sections/Testimonial/Testimonial";
 import Loading from "./components/loading/Loading";
 
 const App = () => {
@@ -53,7 +53,7 @@ const App = () => {
           <section id="1">
             <About />
             <MoreSkill />
-          <Testimonial />
+          {/* <Testimonial /> */}
           </section>
           </div>
 

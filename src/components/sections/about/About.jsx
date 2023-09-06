@@ -5,7 +5,7 @@ import { BiLogoFacebook } from "react-icons/bi";
 import { PiMessengerLogoLight } from "react-icons/pi";
 import { BiLogoInstagram } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
-import { SiNetlify } from "react-icons/si";
+import { RxVercelLogo } from "react-icons/rx"
 import Banner from "../../Banner/Banner";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -65,11 +65,11 @@ const About = () => {
                     </div>
                     </a>
 
-                    <a href="https://github.com/khinezinthin" target="_blank">
+                    <a href="https://vercel.com/dashboard" target="_blank">
                     <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
                         <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
 
-                        <SiNetlify />
+                        <RxVercelLogo />
                       </p>
                     </div>
                     </a>
@@ -80,7 +80,7 @@ const About = () => {
 
             <div className=" text-center w-[310px] max-lg:w-full max-lg:mb-12 ">
               <h1 className=" text-gray-800 dark:text-[#b9b9bb]">
-                Frontend Developer
+                Frontend Web Developer
               </h1>
               <h1 className=" text-2xl text-[#0b0b13] dark:text-white font-semibold tracking-wide">
                 Khine Zin Thin

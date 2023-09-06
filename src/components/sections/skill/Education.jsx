@@ -13,7 +13,7 @@ const Education = () => {
           title="2018 - 2019"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillCheckCircle size={18} />}>
-          <Text  className=" font-bold text-black dark:text-white" size="md">
+          <Text  className=" font-semibold tracking-wide text-black dark:text-white" size="md">
             Passed Matriculation Examination
           </Text>
           <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
@@ -24,8 +24,8 @@ const Education = () => {
           title="2019 - 2020"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillClockCircle className=" text-white" size={18} />}>
-          <Text className=" font-bold text-black dark:text-white" size="md">
-            First Year Student Of Myanmar Major
+          <Text className=" font-semibold tracking-wide text-black dark:text-white" size="md">
+            First Year Student
           </Text>
           <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
             From Dagon University 
@@ -35,7 +35,7 @@ const Education = () => {
           title="2021"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillCheckCircle size={18} />}>
-          <Text className=" font-bold text-black dark:text-white" size="md">
+          <Text className=" font-semibold tracking-wide text-black dark:text-white" size="md">
             Basic Web Design
           </Text>
           <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>
@@ -46,7 +46,7 @@ const Education = () => {
           title="2022 - 2023"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillCheckCircle size={18} />}>
-          <Text className=" font-bold text-black dark:text-white" size="md">
+          <Text className=" font-semibold tracking-wide text-black dark:text-white" size="md">
             Special Web Design Certification
           </Text>
           <Text size="sm" className = "text-[16px] text-gray-500 dark:text-[#ccc]" mt={4}>

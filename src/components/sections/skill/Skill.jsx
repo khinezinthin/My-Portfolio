@@ -96,7 +96,7 @@ const Skill = () => {
           </div>
           <div className=" w-[85%]">
             <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
-              react js, RTK
+              react js, RTK query
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
               <div className=" w-[90%] h-[10px] primary-bg"></div>
@@ -119,7 +119,7 @@ const Skill = () => {
           </div>
           <div className=" w-[85%]">
             <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
-              tailwind css, bootstrap
+              tailwind css, bootstrap, mantine
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
               <div className=" w-[90%] h-[10px] primary-bg"></div>

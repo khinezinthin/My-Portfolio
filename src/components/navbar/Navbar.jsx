@@ -48,7 +48,7 @@ export const Navbar = ()=>{
         <div className="  bg-white dark:bg-[#0c0c14] shadow-md dark:shadow-[#000000] duration-200 fixed w-full z-40 ">
             <nav className=" flex justify-between items-center">
                 <Link to={"0"}>
-                    <h1 className=" cursor-pointer text-white px-8 bg-[#242859] py-5 text-4xl font-semibold">
+                    <h1 className=" cursor-pointer text-white px-8 max-[500px]:px-6 max-[500px]:text-3xl bg-[#242859] py-5 text-4xl font-semibold">
                         K
                     </h1>
                 </Link>
