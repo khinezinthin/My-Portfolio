@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./landing.css";
 import kzt from "../../../assets/kzt/22.jpg";
-import cv from "../../../assets/cv-resume.pdf"
+import cv from "../../../assets/kzt-cv-resume.pdf"
 import { BiLogoGithub } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
 import { PiMessengerLogoLight } from "react-icons/pi";
@@ -146,7 +146,7 @@ const Landing = () => {
                 className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}
               >
                 I develop the frontend projects, using react library ,
-                <br /> CSS library like bootstrap,tailwindCSS, mantine, specialize in frontend language HTML, CSS,JS, SASS.
+                <br /> CSS framework like bootstrap, tailwindCSS specialize in frontend language HTML, CSS, JS, SASS.
               </div>
               {/* btn */}
               <div>

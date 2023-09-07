@@ -32,7 +32,7 @@ const Education = () => {
           </Text>
         </Timeline.Item>
         <Timeline.Item
-          title="2021"
+          title="2022"
           className=" text-[16px] text-gray-500"
           bullet={<AiFillCheckCircle size={18} />}>
           <Text className=" font-semibold tracking-wide text-black dark:text-white" size="md">
