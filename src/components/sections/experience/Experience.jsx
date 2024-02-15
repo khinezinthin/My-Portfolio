@@ -11,6 +11,7 @@ const Experience = () => {
     {id:2, name: "EduVibe Education Website Design"},
     {id:3, name: "EduVibe Dashboard Design"},
     {id:4, name: "Web POS"},
+    {id:5, name: "E-Commerce"},
   ]
   return (
 
