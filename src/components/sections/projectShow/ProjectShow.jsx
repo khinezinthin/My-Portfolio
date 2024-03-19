@@ -37,7 +37,7 @@ const ProjectShow = () => {
     {
       id: 4,
       name: "Web POS",
-      demo: "https://webpos1.netlify.app",
+      demo: "https://webpos2.netlify.app",
       git: "https://github.com/khinezinthin/Web-Pos",
       img: pj4,
     },
