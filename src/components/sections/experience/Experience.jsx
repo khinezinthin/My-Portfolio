@@ -10,7 +10,7 @@ const Experience = () => {
     {
       id: 1,
       name: "Web POS",
-      used: "react, react-redux, mantine, react-hot-toast, sweetalert2, react-router-dom",
+      used: "react, react-redux, mantine, chart-js, react-hot-toast, sweetalert2, react-router-dom",
     },
     {
       id: 2,
