@@ -53,7 +53,7 @@ const Experience = () => {
           >
             <div className=" w-full md:w-[30%] flex flex-col gap-2 items-start">
               <h2 className=" font-semibold text-xl dark:text-white">
-                Mid . Frontend Developer
+                Mid Frontend Developer
               </h2>
               <h2 className=" italic text-[16px] text-slate-600 dark:text-[#ffffffcc]">
                 MMS IT / Workshop
