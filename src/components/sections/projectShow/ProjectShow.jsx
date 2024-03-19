@@ -1,9 +1,10 @@
 import React from "react";
-import pj1 from "../../../assets/projectPhoto/pj1.png";
+import pj6 from "../../../assets/projectPhoto/pj6.png";
 import pj2 from "../../../assets/projectPhoto/pj2.png";
 import pj3 from "../../../assets/projectPhoto/pj3.png";
 import pj4 from "../../../assets/projectPhoto/pj4.png";
 import pj5 from "../../../assets/projectPhoto/pj5.png";
+import pj7 from "../../../assets/projectPhoto/pj7.png";
 import "./projectShow.css";
 import Banner from "../../Banner/Banner";
 import AOS from "aos";
@@ -13,18 +14,25 @@ AOS.init();
 const ProjectShow = () => {
   const projects = [
     {
-      id: 5,
+      id: 1,
       name: "E-Commerce",
       demo: "https://jjewellery.vercel.app",
-      git: "https://github.com/khinezinthin",
+      // git: "#",
       img: pj5,
     },
     {
       id: 2,
-      name: "EduVibe Web Design",
-      demo: "https://eduvide.netlify.app",
-      git: "https://github.com/khinezinthin/Edu-Pro",
-      img: pj2,
+      name: "TFS Profile Website",
+      demo: "https://the-forward-society-frontend.vercel.app/",
+      // git: "#",
+      img: pj7,
+    },
+    {
+      id: 3,
+      name: "Cyber Profile Website",
+      demo: "https://cyber-insights-forum.vercel.app/",
+      // git: "#",
+      img: pj6,
     },
     {
       id: 4,
@@ -34,18 +42,19 @@ const ProjectShow = () => {
       img: pj4,
     },
     {
-      id: 3,
+      id: 5,
+      name: "EduVibe Web Design",
+      demo: "https://eduvide.netlify.app",
+      git: "https://github.com/khinezinthin/Edu-Pro",
+      img: pj2,
+    },
+
+    {
+      id: 5,
       name: "Dashboard Web Design",
       demo: "https://edu-pro-dashboard2.netlify.app",
       git: "https://github.com/khinezinthin/Edu_Pro_Dashboard",
       img: pj3,
-    },
-    {
-      id: 1,
-      name: "Contact Web",
-      demo: "https://contact-web1.netlify.app",
-      git: "https://github.com/khinezinthin/Contact-web",
-      img: pj1,
     },
   ];
   return (
@@ -58,12 +67,12 @@ const ProjectShow = () => {
           data-aos="fade-up"
           data-aos-duration="1200"
           data-aos-once="true"
-          className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#ccc] text-center tracking-wider text-[16px]"
+          className="w-[60%] mx-auto text-[#0B0B13] dark:text-[#ccc] text-center tracking-wider text-[16px]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
-          culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima?
-          Odio provident vel voluptatibus magni, sint minus repudiandae facilis
-          et.
+          Designed and developed a visually appealing portfolio website
+          showcasing my frontend development skills. Utilized modern web
+          technologies such as HTML5, CSS3, and JavaScript to create interactive
+          elements.
         </p>
       </div>
       <div className="w-[90%] flex flex-wrap gap-9 max-sm:flex-col max-lg:gap-14 justify-center mb-24 mx-auto">
@@ -94,13 +103,15 @@ const ProjectShow = () => {
                   >
                     Demo
                   </a>
-                  <a
-                    target="_blank"
-                    href={pj?.git}
-                    className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
-                  >
-                    Git Hub
-                  </a>
+                  {pj?.git && (
+                    <a
+                      target="_blank"
+                      href={pj?.git}
+                      className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+                    >
+                      Git Hub
+                    </a>
+                  )}
                 </div>
               </a>
             </div>

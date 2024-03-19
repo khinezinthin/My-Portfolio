@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./landing.css";
 import kzt from "../../../assets/kzt/22.jpg";
-import cv from "../../../assets/kzt-resume.pdf";
+import cv from "../../../assets/khine-zin-thin-cv.pdf";
 import { BiLogoGithub } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
 import { PiMessengerLogoLight } from "react-icons/pi";
@@ -148,9 +148,9 @@ const Landing = () => {
                 data-aos-delay="150"
                 className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}
               >
-                I develop the frontend projects, using react library ,
+                I develop the frontend projects, using react, next library ,
                 <br /> CSS framework like bootstrap, tailwindCSS specialize in
-                frontend language HTML, CSS, JS, SASS.
+                frontend language HTML, CSS, JS.
               </div>
               {/* btn */}
               <div>

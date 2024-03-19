@@ -38,11 +38,9 @@ const Skill = () => {
               onEnter={{ handleScrollEnter }}
               onExit={handleScrollExit}
               // triggerOnLoad={false}
-              >
+            >
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
-                {count && (
-                  <CountUp start={0} end={92} duration={2} delay={0} />
-                )}{" "}
+                {count && <CountUp start={0} end={92} duration={2} delay={0} />}{" "}
                 %
               </h2>
             </ScrollTrigger>
@@ -57,16 +55,16 @@ const Skill = () => {
             </div>
           </div>
         </div>
+
         {/* javascript */}
         <div className=" flex justify-evenly gap-5 items-center">
           <div className=" w-fit">
             <ScrollTrigger
               onEnter={() => setCount(true)}
-              onExit={() => setCount(false)}>
+              onExit={() => setCount(false)}
+            >
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
-                {count && (
-                  <CountUp  start={0} end={85} duration={2} delay={0} />
-                )}{" "}
+                {count && <CountUp start={0} end={85} duration={2} delay={0} />}{" "}
                 %
               </h2>
             </ScrollTrigger>
@@ -80,16 +78,39 @@ const Skill = () => {
             </div>
           </div>
         </div>
+
+        {/* typescript  */}
+        <div className=" flex justify-evenly gap-5 items-center">
+          <div className=" w-fit">
+            <ScrollTrigger
+              onEnter={() => setCount(true)}
+              onExit={() => setCount(false)}
+            >
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && <CountUp start={0} end={80} duration={2} delay={0} />}{" "}
+                %
+              </h2>
+            </ScrollTrigger>
+          </div>
+          <div className=" w-[85%]">
+            <p className=" uppercase text-[14px] tracking-wider dark:text-white text-left pb-2">
+              typescript
+            </p>
+            <div className=" w-full h-[10px] bg-slate-300">
+              <div className=" w-[85%] h-[10px] primary-bg"></div>
+            </div>
+          </div>
+        </div>
+
         {/* react  */}
         <div className=" flex justify-evenly gap-5 items-center">
           <div className=" w-fit">
             <ScrollTrigger
               onEnter={() => setCount(true)}
-              onExit={() => setCount(false)}>
+              onExit={() => setCount(false)}
+            >
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
-                {count && (
-                  <CountUp start={0} end={90} duration={2} delay={0} />
-                )}{" "}
+                {count && <CountUp start={0} end={90} duration={2} delay={0} />}{" "}
                 %
               </h2>
             </ScrollTrigger>
@@ -103,16 +124,39 @@ const Skill = () => {
             </div>
           </div>
         </div>
+
+        {/* next  */}
+        <div className=" flex justify-evenly gap-5 items-center">
+          <div className=" w-fit">
+            <ScrollTrigger
+              onEnter={() => setCount(true)}
+              onExit={() => setCount(false)}
+            >
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && <CountUp start={0} end={80} duration={2} delay={0} />}{" "}
+                %
+              </h2>
+            </ScrollTrigger>
+          </div>
+          <div className=" w-[85%]">
+            <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
+              next js
+            </p>
+            <div className=" w-full h-[10px] bg-slate-300">
+              <div className=" w-[90%] h-[10px] primary-bg"></div>
+            </div>
+          </div>
+        </div>
+
         {/* tailwind  */}
         <div className=" flex justify-evenly gap-5 items-center">
           <div className=" w-fit">
             <ScrollTrigger
               onEnter={() => setCount(true)}
-              onExit={() => setCount(false)}>
+              onExit={() => setCount(false)}
+            >
               <h2 className=" flex items-center text-3xl font-medium dark:text-white ">
-                {count && (
-                  <CountUp start={0} end={90} duration={2} delay={0} />
-                )}{" "}
+                {count && <CountUp start={0} end={90} duration={2} delay={0} />}{" "}
                 %
               </h2>
             </ScrollTrigger>
@@ -126,16 +170,16 @@ const Skill = () => {
             </div>
           </div>
         </div>
+
         {/* github  */}
         <div className=" flex justify-evenly gap-5 items-center">
           <div className=" w-fit">
             <ScrollTrigger
               onEnter={() => setCount(true)}
-              onExit={() => setCount(false)}>
+              onExit={() => setCount(false)}
+            >
               <h2 className=" flex items-center text-3xl font-medium dark:text-white">
-                {count && (
-                  <CountUp start={0} end={85} duration={2} delay={0} />
-                )}{" "}
+                {count && <CountUp start={0} end={85} duration={2} delay={0} />}{" "}
                 %
               </h2>
             </ScrollTrigger>
