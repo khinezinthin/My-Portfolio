@@ -173,7 +173,7 @@ const About = () => {
                     Email:{" "}
                   </span>
                   <span className="text-gray-800 dark:text-[#b9b9bb] text-[15px]">
-                    khinezinthinfb1@gmail.com
+                    khinezinthinwk1@gmail.com
                   </span>
                 </p>
                 <p className="flex gap-3">

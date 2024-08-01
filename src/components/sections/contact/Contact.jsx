@@ -37,7 +37,7 @@ const Contact = () => {
               <BsEnvelopePaper className="primary-text mr-4 text-xl" />
               </p>
               <p className="text-black dark:text-gray-300 text-lg font-medium break-words">
-                khinezinthinfb1@gmail.com
+                khinezinthinwk1@gmail.com
               </p>
             </div>
             <div className="flex items-start">
