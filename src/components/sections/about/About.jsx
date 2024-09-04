@@ -12,6 +12,24 @@ import "aos/dist/aos.css";
 AOS.init();
 
 const About = () => {
+  function calculateAge(birthDate) {
+    const today = new Date();
+    const birth = new Date(birthDate);
+
+    let age = today.getFullYear() - birth.getFullYear();
+    const monthDiff = today.getMonth() - birth.getMonth();
+
+    // Adjust age if the current date is before the birthday this year
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && today.getDate() < birth.getDate())
+    ) {
+      age--;
+    }
+
+    return age;
+  }
+  const age = calculateAge("2002-12-19");
   return (
     <>
       <div className=" flex flex-col justify-center items-center pt-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
@@ -110,11 +128,17 @@ const About = () => {
               <Banner title="Biography" />
 
               <p className=" text-gray-800 dark:text-[#b9b9bb] text-[16px] leading-6 mt-7 mb-5 max-lg:mt-8">
-                Hello, I'm Frontend Web Developer . I'm from Yangon . I code and
-                create web elements for my client . I design and code
-                beautifully simple things and i like what i do . Experienced
-                frontend web developer with 2 years of hands-on experience in
-                building responsive and user-friendly websites
+                I'm Khine Zin Thin, a frontend developer with over a
+                year of experience in building responsive and user-friendly
+                websites. I specialize in HTML, CSS, JavaScript, and modern
+                frameworks like React.js and Next.js. I’ve worked on diverse
+                projects, including e-commerce platforms, educational
+                dashboards, and dynamic profile websites. Currently, I’m a
+                freelance developer at Yangon Software House, where I
+                collaborate with teams to create high-quality web applications.
+                With strong communication, teamwork, and problem-solving skills,
+                I’m always eager to learn and grow in the ever-evolving field of
+                web development.
               </p>
 
               {/* <p className=" text-gray-800 dark:text-[#b9b9bb] text-[16px] leading-6 mb-7 max-lg:mb-8">
@@ -146,7 +170,7 @@ const About = () => {
                     Age:{" "}
                   </span>
                   <span className="text-gray-800 dark:text-[#b9b9bb]">
-                    21 years
+                    {age}
                   </span>
                 </p>
                 <p className="flex gap-3">
