@@ -44,7 +44,7 @@ const ProjectShow = () => {
     {
       id: 5,
       name: "EduVibe Web Design",
-      demo: "https://eduvide.netlify.app",
+      demo: "https://edu-pro-tv6a.vercel.app/",
       git: "https://github.com/khinezinthin/Edu-Pro",
       img: pj2,
     },
@@ -60,7 +60,7 @@ const ProjectShow = () => {
   return (
     <div className="w-[100%] flex flex-col gap-16 justify-center bg-[#FFFFFF] dark:bg-[#000000] duration-200">
       <div className="w-[90%] pt-14 flex gap-7 flex-col justify-center mx-auto">
-        <h1 className=" text-center">
+        <h1 className="text-center ">
           <Banner title="Recent Project" />
         </h1>
         <p
@@ -95,7 +95,7 @@ const ProjectShow = () => {
                 <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
                   {pj?.name}
                 </h1>
-                <div className="flex my-3 gap-5 mx-auto">
+                <div className="flex gap-5 mx-auto my-3">
                   <a
                     target="_blank"
                     href={pj?.demo}
